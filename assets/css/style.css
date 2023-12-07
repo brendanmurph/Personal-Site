@@ -334,9 +334,8 @@ h6 {
   box-shadow: .5px .5px 8px .5px;
   border-radius: 4px;
   margin-left: 10px;
-  text-transform:capitalize;
   margin:20px;
-  width: 18rem;
+  
 }
 .card h4 {
   margin-bottom: 20px;
@@ -344,18 +343,9 @@ h6 {
   font-weight: bold;
   color: #45505b;
 }
-.tech-skills {
-  display: flex;
-}
-.design-skills {
-  display: flex;
-}
-.market-skills {
-  display: flex;
-}
 @media screen and (min-width: 960px) {
   .skills-content {
-    margin-left: 12.9rem;
+    margin-left: 8rem;
     
   }
 }
