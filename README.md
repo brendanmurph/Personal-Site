@@ -1,1 +1,1 @@
-This is my first go at a portfolio website. 
+This is my first go at a portfolio/personal website. 

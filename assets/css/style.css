@@ -343,12 +343,6 @@ h6 {
   font-weight: bold;
   color: #45505b;
 }
-@media screen and (min-width: 960px) {
-  .skills-content {
-    margin-left: 8rem;
-    
-  }
-}
 
 /*--------------------------------------------------------------
 # Sections General
