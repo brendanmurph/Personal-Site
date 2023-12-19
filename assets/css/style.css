@@ -575,16 +575,16 @@ section {
 /*media queries*/
 @media (min-width: 991px) {
   #hero h1 {
-    margin-left: 5.5rem;
+    margin-left: 7rem;
   }
   #hero p {
-    margin-left:5.5rem;
+    margin-left:7rem;
   }
   .social-links {
     margin-left: 5.2rem;
   }
   #footer .social-links {
-    margin: 0 0 0 5.5rem;
+    margin: 0 0 0 7rem;
   }
   #footer .copyright {
     margin: 1rem 0 0 5.5rem;
