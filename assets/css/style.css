@@ -117,7 +117,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 15px;
-  overflow-y: auto;
+  
 }
 
 
@@ -321,10 +321,12 @@ h6 {
 /*----------------------------------
 # skills
 ------------------------------------*/
+#skills {
+  background-color: #eee;
+}
 .skills-content {
   display: grid;
   place-items: center;
-
 }
 .card {
   position: sticky;
@@ -547,9 +549,6 @@ section {
   padding: 0;
   margin: 0 0 40px 0;
 }
-#footer .social-links {
-  margin: 0 0 0 5.5rem;
-}
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -569,9 +568,6 @@ section {
   color: #fff;
   text-decoration: none;
 }
-#footer .copyright {
-  margin: 1rem 0 0 5.5rem;
-}
 #footer .credits {
   font-size: 13px;
 }
@@ -586,5 +582,11 @@ section {
   }
   .social-links {
     margin-left: 5.2rem;
+  }
+  #footer .social-links {
+    margin: 0 0 0 5.5rem;
+  }
+  #footer .copyright {
+    margin: 1rem 0 0 5.5rem;
   }
 }
