@@ -317,18 +317,67 @@ h6 {
 #hero .social-links a:hover {
   color: #0563bb;
 }
-
+/*project section*/
+.projects {
+  background-color: #ddd;
+}
+.tile {
+  margin: 3rem auto;
+  position: relative;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: all 0.5s;
+  width: 15rem;
+  height: 15rem;
+  box-shadow: 0px 0px 25px -15px rgba(66, 68, 90, 1);
+  text-align: center;
+}
+.tile:hover {
+  transform: translateY(-5%);
+  box-shadow: 0px 0px 40px -15px rgba(66, 68, 90, 1);
+}
+.tile__face {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.tile__face--front {
+  background-image: url();
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.tile__face--back {
+  transform: rotateY(180deg);
+  display: grid;
+  place-items: center;
+  background-color:#0563bb;
+  color: #ddd;
+}
+.tile__face--back p {
+  margin: 2rem;
+}
+.tile.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+button {
+  border-radius: .7rem;
+  background-color: #fff;
+  color: #45505b;
+  font-weight:550;
+}
 /*----------------------------------
 # skills
 ------------------------------------*/
-#skills {
-  background-color: #eee;
-}
 .skills-content {
   display: grid;
   place-items: center;
 }
-.card {
+.card-skills {
   position: sticky;
   top: 0;
   background: white;
@@ -339,13 +388,12 @@ h6 {
   margin:20px;
   
 }
-.card h4 {
+h4 {
   margin-bottom: 20px;
   margin-top: 20px;
   font-weight: bold;
   color: #45505b;
 }
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/

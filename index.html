@@ -19,7 +19,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/slider.css">
 </head>
 
 <body>
@@ -71,49 +70,35 @@
     </section>
     <!-- End About Section -->
     <!--<img src="assets/img/lake tahoe.webp" alt="">-->
-    <!--Client work section-->
-      <!-- Slideshow container -->
+
+    <!--Projects Section-->
 <section class="projects" id="projects">
-  <div class="section-title" data-aos="flip-right">
+  <div class="section-title">
     <h2>Projects</h2>
   </div>
-  <div class="slideshow-container" data-aos="flip-right">
-
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 2</div>
-      <img class="slider-image" src="assets/img/project-images/moveinc.webp" style="width:100%">
-      <div class="text"><a target="_blank" href="https://www.figma.com/file/ncJaOMIrYiADZNp63ZnYkE/Move-Inc.?type=design&node-id=0-1&mode=design&t=RrLh3ktCytkjXBZm-0">MOVE INC</div></a>
-    <p class="project-description">MOVE INC is a Figma project inspired by my passion for fitness and ketllebells. It's a workout app and ecommerce hybrid. </p>
+  <div class="tile">
+    <div class="tile__face tile__face--front">
+      <h3>Move</h3>
     </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 2</div>
-      <img class="slider-image" src="assets/img/project-images/superhuman.webp" style="width:100%">
-      <div class="text"><a target="_blank" href="https://superhumanbikes.com/">SUPERHUMAN</div></a>
-      <p class="project-description">Superhuman is an ebike manufacturer in San Diego. This project was made on Shopify using HTML, CSS, javascript and liquid. </p>
+    <div class="tile__face tile__face--back">
+      <p>A fitness inspired Figma project for an app to purchase equipment and download workout and meal plans</p>
+      <a target="_blank" href="https://www.figma.com/file/ncJaOMIrYiADZNp63ZnYkE/Move-Inc.?type=design&node-id=0%3A1&mode=design&t=LXRguQHxf5FDKEcs-1">
+      <button>See project</button></a> 
     </div>
-
-    <!--<div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img class="slider-image" src="assets/img/project-images/800X500.png" style="width:100%">
-      <div class="text">Caption Three</div>
-    </div>-->
-
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
-  <br>
-
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <!--<span class="dot" onclick="currentSlide(3)"></span>-->
+  <div class="tile">
+    <div class="tile__face tile__face--front">
+      <h3>Superhuman</h3>
+    </div>
+    <div class="tile__face tile__face--back">
+      <p>As a digital marketing specialist I manage this Shopify store and create landing pages for marketing campaigns</p>
+      <a target="_blank" href="https://superhumanbikes.com/">
+      <button>See website</button></a> 
+    </div>
   </div>
 </section>
-    <!--  end client work section-->
+    <!--End Projects Section-->
+
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
       <div class="container" data-aos="fade-up">
@@ -122,7 +107,7 @@
         </div>
         <div class="skills-content">
           <div class="col-lg-6">
-            <div class="card" data-aos="zoom-in">
+            <div class="card-skills" data-aos="zoom-in">
               <h4 class="text-center">Front-end</h4>
               <div class="tech-skills">
                 <img src="assets/img/skills-icons/icons8-html5.svg" height="50rem" class="card-img-top" alt="html5 icon">
@@ -131,7 +116,7 @@
                 <img src="assets/img/skills-icons/icons8-figma.svg" height="50rem" class="card-img-top" alt="...">
               </div>
          </div>
-         <div class="card" data-aos="zoom-in">
+         <div class="card-skills" data-aos="zoom-in">
               <h4 class="text-center">CMS</h4>
               <div class="design-skills">
                 <img src="assets/img/skills-icons/icons8-shopify.svg" height="50rem" class="card-img-top" alt="...">
@@ -139,7 +124,7 @@
                 <img src="assets/img/skills-icons/icons8-wix.svg" height="50rem" class="card-img-top" alt="...">
               </div>
             </div>
-         <div class="card" data-aos="zoom-in">
+         <div class="card-skills" data-aos="zoom-in">
               <h4 class="text-center">Marketing Automation</h4>
               <img src="assets/img/skills-icons/outreachlogo.svg" height="30rem" alt="outreach.io logo">
               <div class="market-skills">
@@ -149,6 +134,7 @@
       </div>
     </section>
     <!-- End Skills Section -->
+
     <!-- ======= Contact Section ======= 
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
@@ -184,6 +170,7 @@
     </section>
   <-- End Contact Section -->
   </main>
+  
   <!-- End #main -->
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -215,7 +202,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/slider.js"></script>
+  <script src="assets/js/card.js"></script>
 
 </body>
 
